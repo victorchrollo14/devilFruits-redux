@@ -1,0 +1,32 @@
+export const devilFruits = [
+  {
+    id: "gomu-gomu-no-mi",
+    name: "ゴムゴムの実 (Gomu Gomu no Mi)",
+    englishName: "Gum-Gum Fruit",
+    type: "Paramecia",
+    abilities: "Rubber Body",
+    users: ["Monkey D. Luffy"],
+    description:
+      "The Gomu Gomu no Mi grants the user a body made of rubber, making them immune to conventional blunt attacks.",
+  },
+  {
+    id: "mera-mera-no-mi",
+    name: "メラメラの実 (Mera Mera no Mi)",
+    englishName: "Flame-Flame Fruit",
+    type: "Logia",
+    abilities: "Fire Manipulation",
+    users: ["Portgas D. Ace", "Sabot"],
+    description:
+      "The Mera Mera no Mi allows the user to create, control, and transform into fire at will.",
+  },
+  {
+    id: "zo-zo-no-mi",
+    name: "ゾゾの実 (Zo Zo no Mi)",
+    enlishName: "Zo-Zo Fruit",
+    type: "Zoan",
+    abilities: "Animal Transformation",
+    users: ["Dalton", "Chopper"],
+    description:
+      "The Zo Zo no Mi is a Zoan-type Devil Fruit that allows the user to transform into various animals and hybrid forms.",
+  },
+];

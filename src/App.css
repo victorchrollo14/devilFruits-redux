@@ -94,3 +94,7 @@ button {
 button:hover {
   background-color: #2980b9;
 }
+
+.edit-button {
+  margin: 4px;
+}

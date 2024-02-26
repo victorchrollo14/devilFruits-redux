@@ -1,4 +1,6 @@
-export const devilFruits = [
+import { devilFruitType } from "../redux/fruitsReducer";
+
+export const devilFruits: Array<devilFruitType> = [
   {
     id: "gomu-gomu-no-mi",
     name: "ゴムゴムの実 (Gomu Gomu no Mi)",
@@ -22,7 +24,7 @@ export const devilFruits = [
   {
     id: "zo-zo-no-mi",
     name: "ゾゾの実 (Zo Zo no Mi)",
-    enlishName: "Zo-Zo Fruit",
+    englishName: "Zo-Zo Fruit",
     type: "Zoan",
     abilities: "Animal Transformation",
     users: ["Dalton", "Chopper"],
